@@ -1,0 +1,134 @@
+.paragraph1{
+    margin-top: 40px;
+     text-align: center;
+    font-family: 'Combo', cursive;  
+    font-size: 25px; 
+}
+.paragraph2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Combo', cursive;  
+    color: white;
+}
+.paragraph3{
+    text-align: center;
+    font-family: 'Combo', cursive; 
+    font-size: 25px;
+}
+.paragraph4{
+    text-align: center;
+    font-family: 'Combo', cursive; 
+    font-size: 25px;
+    border: 2px dotted black;
+
+}
+
+h1{
+    text-align: center;
+    /* font-family: 'Tangerine', serif; */
+    font-size: 40px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: black;
+    /* background-color: rgb(238, 227, 198); */
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+h2{
+    font-family: 'Combo', cursive;
+    font-family: 'Rozha One', serif;
+    text-align: center;
+     font-size: 70px;
+     margin-top: 30px;
+}
+h4{
+    text-align: center;
+    font-family: 'Tangerine', serif; 
+    font-size: 40px;
+    border: 2px dashed black;
+    margin-top: 8px;
+}
+h5{
+    margin-bottom: -30px;
+    text-align: center;
+    /* font-family: 'Tangerine', serif; */
+    font-size: 40px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: rgb(255, 43, 43);
+    border-bottom: dashed white 2px ;
+}
+h6{
+    text-align: center;
+    /* font-family: 'Tangerine', serif; */
+    font-size: 35px;
+    text-shadow: 4px 4px 4px rgb(72, 21, 255);
+    color: black;
+    /* background-color: rgb(238, 227, 198); */
+    /* margin-top: 20px; */
+    /* border-radius: 20px;
+    margin-bottom: 30px; */
+}
+.room1{
+    font-family: 'Combo', cursive;
+    font-family: 'Rozha One', serif;
+    text-align: center;
+     font-size: 30px;
+     margin-top: 20px;
+}
+.everydaypacket{
+    color: red;
+}
+.manu{
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+.appointment{
+    font-size: 40px;
+    color: red;
+}
+
+.navbar{
+    padding: 20px;
+    
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.nav-item{
+    padding-left: 25px;
+}
+
+.card{
+    background-color: rgb(56, 95, 95);
+    margin: 20px;
+    border-radius: 40px;
+}
+
+/* hr (horizental line star css)  */
+.accessory {
+    height: 6px;
+    background-image: radial-gradient(closest-side, rgb(197, 91, 91), rgba(255, 6, 6, 0) 100%);
+    position: relative;
+}
+.accessory:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    background-color: #bfbfbf;
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 4px 0;
+    border: 4px solid rgba(255, 255, 255, 0.35);
+    background-clip: padding-box;
+    box-shadow: -10px 10px 0 rgba(255, 255, 255, 0.15), 10px -10px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* map setting */
+.maps{
+width: 100%;
+height: auto;
+}
